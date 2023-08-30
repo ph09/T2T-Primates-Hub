@@ -1,0 +1,10 @@
+track PARRegions_GCF_028885655.1
+shortLabel PAR regions
+longLabel PAR regions
+description PAR Regions
+type bigBed
+group cat_tracks
+itemRgb on
+priority 1
+visibility pack
+bigDataUrl par.bb

@@ -1,0 +1,10 @@
+track ncbiOnlyRegions_GCF_028885655.1
+shortLabel NCBI only regions
+longLabel NCBI only regions
+description NCBI only Regions
+type bigBed     
+group cat_tracks
+itemRgb on
+priority 1
+visibility pack
+bigDataUrl ncbiOnly.bb

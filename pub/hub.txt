@@ -1,0 +1,6 @@
+hub t2tPrimates
+shortLabel t2tPrimates
+longLabel t2tPrimates
+genomesFile genomes.txt
+email pnhebbar@ucsc.edu
+

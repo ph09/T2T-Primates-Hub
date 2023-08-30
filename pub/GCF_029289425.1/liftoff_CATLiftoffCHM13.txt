@@ -1,0 +1,14 @@
+track liftoff_CATLiftoffCHM13_GCF_029289425.1
+shortLabel Liftoff Annotation with CAT/Liftoff CHM13
+longLabel Liftoff Annotation with CAT/Liftoff CHM13
+description Liftoff Annotation with CAT/Liftoff CHM13
+type bigGenePred
+group cat_tracks
+itemRgb on
+priority 1
+visibility pack
+searchIndex name,name2,txId,geneName,sourceGene,sourceTranscript,alignmentId
+bigDataUrl liftoff_CATLiftoffCHM13.bb
+labelFields name,name2,txId,geneName,sourceGene,sourceTranscript,alignmentId
+defaultLabelFields name
+labelSeperator " "

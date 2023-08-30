@@ -1,0 +1,72 @@
+genome GCF_029281585.1
+twoBitPath GCF_029281585.1/GCF_029281585.1.2bit
+trackDb GCF_029281585.1/trackDb.txt
+organism Gorilla
+description Gorilla gorilla
+scientificName Gorilla gorilla
+defaultPos NC_073224.1:1-200000
+groups groups.txt
+
+genome GCF_028858775.1
+twoBitPath GCF_028858775.1/GCF_028858775.1.2bit
+trackDb GCF_028858775.1/trackDb.txt
+organism Chimpanzee
+description Pan troglodytes
+scientificName Pan troglodytes
+defaultPos NC_072398.1:1-200000
+groups groups.txt
+
+genome GCF_029289425.1
+twoBitPath GCF_029289425.1/GCF_029289425.1.2bit
+trackDb GCF_029289425.1/trackDb.txt
+organism Bonobo
+description Pan paniscus
+scientificName Pan paniscus
+defaultPos NC_073249.1:1-200000
+groups groups.txt
+
+genome hg38
+twoBitPath hg38/hg38.2bit
+trackDb hg38/trackDb.txt
+organism Human GRCh38
+description hg38
+scientificName Homo sapiens
+defaultPos chr1:1-200000
+groups groups.txt
+
+genome GCF_028885655.1
+twoBitPath GCF_028885655.1/GCF_028885655.1.2bit
+trackDb GCF_028885655.1/trackDb.txt
+organism Sumatran Orangutan
+description Pongo abelii
+scientificName Pongo abelii
+defaultPos NC_071985.1:1-200000
+groups groups.txt
+
+genome GCF_028885625.1
+twoBitPath GCF_028885625.1/GCF_028885625.1.2bit
+trackDb GCF_028885625.1/trackDb.txt
+organism Bornean Orangutan
+description Pongo pygmaeus
+scientificName Pongo pygmaeus
+defaultPos NC_072373.1:1-200000
+groups groups.txt
+
+genome GCF_028878055.1
+twoBitPath GCF_028878055.1/GCF_028878055.1.2bit
+trackDb GCF_028878055.1/trackDb.txt
+organism Siamang
+description Symphalangus syndactylus
+scientificName Symphalangus syndactylus
+defaultPos NC_072424.1:1-200000
+groups groups.txt
+
+genome hs1
+twoBitPath hs1/hs1.2bit
+trackDb hs1/trackDb.txt
+organism Human CHM13
+description hs1
+scientificName Homo sapiens
+defaultPos chr1:1-200000
+groups groups.txt
+

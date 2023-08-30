@@ -1,0 +1,132 @@
+include seqclasses.txt                           
+include par.txt
+include ncbiOnly.txt
+include transmap.txt
+include augustus.txt
+include filtered_transmap.txt
+include isoseq_bams.txt
+include consensus.txt
+include evaluation.txt
+include augustus_pb.txt
+include ncbi.txt
+include liftoff_RefSeqCHM13.txt
+include liftoff_CATLiftoffCHM13.txt
+include CAT_Liftoff.txt
+
+track hubCentral
+compositeTrack on
+shortLabel Cactus
+longLabel Cactus Alignment Tracks
+group cat_tracks
+subGroup1 view Track_Type Snake=Alignments
+subGroup2 orgs Organisms GCF_029281585.1=GCF_029281585.1 GCF_028858775.1=GCF_028858775.1 GCF_029289425.1=GCF_029289425.1 hg38=hg38 GCF_028885655.1=GCF_028885655.1 GCF_028885625.1=GCF_028885625.1 GCF_028878055.1=GCF_028878055.1 hs1=hs1
+dragAndDrop subTracks
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 0
+centerLabelsDense on
+visibility full
+type bigBed 3
+
+    track hubCentralAlignments
+    shortLabel Alignments
+    view Alignments
+    visibility full
+    subTrack hubCentral
+
+        track snakeGCF_029281585.1
+        longLabel GCF_029281585.1
+        shortLabel GCF_029281585.1
+        otherSpecies GCF_029281585.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_029281585.1
+
+        track snakeGCF_028858775.1
+        longLabel GCF_028858775.1
+        shortLabel GCF_028858775.1
+        otherSpecies GCF_028858775.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_028858775.1
+
+        track snakeGCF_029289425.1
+        longLabel GCF_029289425.1
+        shortLabel GCF_029289425.1
+        otherSpecies GCF_029289425.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_029289425.1
+
+        track snakehg38
+        longLabel hg38
+        shortLabel hg38
+        otherSpecies hg38
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=hg38
+
+        track snakeGCF_028885655.1
+        longLabel GCF_028885655.1
+        shortLabel GCF_028885655.1
+        otherSpecies GCF_028885655.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_028885655.1
+
+        track snakeGCF_028885625.1
+        longLabel GCF_028885625.1
+        shortLabel GCF_028885625.1
+        otherSpecies GCF_028885625.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_028885625.1
+
+        track snakeGCF_028878055.1
+        longLabel GCF_028878055.1
+        shortLabel GCF_028878055.1
+        otherSpecies GCF_028878055.1
+        visibility hide
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=GCF_028878055.1
+
+        track snakehs1
+        longLabel hs1
+        shortLabel hs1
+        otherSpecies hs1
+        visibility full
+        parent hubCentralAlignments off
+        priority 3
+        bigDataUrl ../8-t2t-apes-2023v1.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=hs1
+

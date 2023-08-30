@@ -1,0 +1,14 @@
+track liftoff_RefSeqCHM13_GCF_029289425.1
+shortLabel Liftoff Annotation with RefSeq CHM13
+longLabel Liftoff Annotation with RefSeq CHM13
+description Liftoff Annotation with RefSeq CHM13
+type bigGenePred
+group cat_tracks
+itemRgb on
+priority 1
+visibility pack
+searchIndex name,name2,txId,geneName
+bigDataUrl liftoff_RefSeqCHM13.bb
+labelFields name,name2,txId,geneName
+defaultLabelFields name
+labelSeperator " "

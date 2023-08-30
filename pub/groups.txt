@@ -1,0 +1,25 @@
+name cat_tracks
+label Comparative Annotation Toolkit
+priority 1
+defaultIsClosed 0
+
+name snake
+label Alignment Snakes
+priority 2
+defaultIsClosed 0
+
+name expression
+label Expression
+priority 3
+defaultIsClosed 0
+
+name chain
+label Chains
+priority 2
+defaultIsClosed 0
+
+name synteny
+label Synteny
+priority 2
+defaultIsClosed 0
+

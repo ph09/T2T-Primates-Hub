@@ -1,0 +1,15 @@
+track chm13_hs1
+shortLabel chm13
+longLabel chm13
+description chm13
+type bigGenePred
+group cat_tracks
+itemRgb on
+priority 3
+visibility pack
+searchIndex name,name2,geneId,transcriptId
+bigDataUrl annotation.bb
+labelFields name,name2,geneId,transcriptId
+defaultLabelFields name
+labelSeperator " "
+
