@@ -1,0 +1,15 @@
+track chrX_SD_intra_GCF_028885625.1
+shortLabel chrX intra segdups
+longLabel chrX intra segdups
+description chrX intra segdups
+type bigBed
+group cat_tracks
+itemRgb on
+priority 1
+visibility pack
+searchIndex name
+bigDataUrl chrX.SD.intra.bb
+labelFields name
+defaultLabelFields name
+labelSeperator " "
+
