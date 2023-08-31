@@ -1,0 +1,5 @@
+.emacs.bak/
+*.bb
+*.bam
+*.bai
+*.hal
